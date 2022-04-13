@@ -5,19 +5,11 @@
 }
 body
 {
-	background-image: url(ismo.jpg); 
+	background-image: url(img/ismo.jpg); 
 	object-fit: cover;
 	background-size: 100%;
 }
-.main
-{
-	width: 100%;
-	background: linear-gradient(to top, rgba(0,0,0,0,5)50%, rgba(0,0,0,0,5)50%); 
-	background-position:center; 
-	background-size: cover;
-	height: 109vh;
-	z-index: -2;
-}
+
 .navbar
 {
 	width: 1200px;
@@ -117,181 +109,145 @@ ul li a:hover
 	outline: none;
 }
 
-.section
- {
- 	display: flex;
- 	justify-content: space-around;
- 	width: 100%;
- 	height: 50vw;
- 	margin-bottom: 80px;
- }
- .form
- {
- 	width: 500px;
-    height: 350px;
-    align-self: center;
-    padding-top: 8px;
-    border-radius: 30px;
-    box-shadow: 10px 10px 30px #ddd;
-    color: white;
-    text-align: center;
-    font-family: Arial;
-    font-size: 135%;
- }
- ol
+
+
+
+
+.titr
 {
-	width: 300px;
-	height: 200px;
+text-align: center;
+font-size: 29px;
+text-decoration: underline;
+color: white;
+}
+#img
+{	
 	display: flex;
-	justify-content: space-between;
+}
+#im
+{
 	align-items: center;
-	margin-left: 50px;
-}
-li
-{
-	padding: 10px;
-}
-.para
-{
-	padding-top: 50px;
-}
-#video
-{
-width: 150%;
-height: 50vh;
-margin-top: 45px;
+	text-align: center;
+	height: 125vh;
+	margin-left: 150px;
+
 
 }
-video
+article img
 {
+	border-radius: 25px;
+	width: 170px;
+	height: 170px;
+}
+article img:hover
+{
+	transform:scale(1.9);
+}
+article
+{
+	top: 80px;
 	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	box-shadow: 0px 4px 6px #1c1a19;
-}
-.sepa
-{
-	margin-right: 90px;
-	margin-top: -100px;
-
-}
-.separ
-{
-	margin-left: 90px;
-	margin-top: -100px;
-}
-h1
-{
+	height: 145vh;
 	position: absolute;
-
+}
+figure
+{
+	margin: 25px 25px 25px 25px;
 }
 
 img
 {
-	width: 25px;
-	height: 25px;
+    width: 25px;
+    height: 25px;
 }
 
 footer
 {
-	position: absolute;
-	bottom: 0;
-	background: #111;
-	height: auto;
-	width: 100vw;
-	font-family: "Open Sans";
-	padding-top: 40px;
-	color: #fff;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	top: calc(145vh + 80px);
-	
+    position: absolute;
+    bottom: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: calc(145vh + 60px);
+    
 }
 .footer-content
 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	text-align: center;
-	background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #111;
 }
 .footer-content h3
 {
-	font-size: 1.8rem;
-	font-weight: 400;
-	text-transform: capitalize;
-	line-height: 3rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
 }
 .footer-content p
 {
-	max-width: 500px;
-	margin: 10px auto;
-	line-height: 28px;
-	font-size: 14px;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
 }
 .socials
 {
-	list-style: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 1rem 0 3rem 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
 }
 .socials li
 {
-	margin: 0 10px;
+    margin: 0 10px;
 }
 .socials a
 {
-	text-decoration: none;
-	color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 .socials a img
 {
-	font-size: 1.1rem;
-	transition: color .4s ease;
+    font-size: 1.1rem;
+    transition: color .4s ease;
 }
 .socials a:hover img
 {
-	color: aqua;
+    color: aqua;
 }
 .footer-bottom
 {
-	background: #000;
-	width: 100vw;
-	padding: 20px 0;
-	text-align: center;
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
 }
 .footer-bottom p
 {
-	font-size: 14px;
-	word-spacing: 2px;
-	text-transform: capitalize;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
 }
 .footer-bottom span
 {
-	text-transform: uppercase;
-	opacity: .4;
-	font-weight: 200;
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
-.cont
+.footer-bottom span
 {
-	top: 80px;
-	position: absolute;
-	height: 145vh;
-	width: 100%;
-}
-.enu
-{
-	margin-left: 100px;
-	margin-top: 35px;
-}
-.bien
-{
-	color: white;
-	font-size: 100px;
-	margin-left:95px;
-	margin-top: 65px; 
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
